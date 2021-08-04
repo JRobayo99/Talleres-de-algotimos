@@ -5,7 +5,7 @@ Algoritmo Pormedio_Notas
 	Leer  notas30
 	Escribir "Ingrese el promedio de notas que equivalente al 15%."
 	Leer  notas15
-	notasf<-(notas51+notas52+notas53)
+	notasf<-(notas51+notas52+notas53)/3
 	porcent1<-(notasf*0.55)
 	porcent2<-(notas30*0.30)
 	porcent3<-(notas15*0.15)
