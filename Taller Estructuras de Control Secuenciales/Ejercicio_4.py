@@ -5,7 +5,7 @@ Salidas
 Descuento --> float -->desc
 """
 C=float(input("Digite el valor de la compra: "))
-desc=(C10*0.15) 
+desc=(C*0.15) 
 #cajanegra 
 toaltal=(C-desc)
 #Salida
