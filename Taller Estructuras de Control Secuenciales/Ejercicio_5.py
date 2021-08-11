@@ -1,0 +1,11 @@
+nt1=int(input("Primera nota parcial: "))
+nt2=int(input("Segunda nota parcial: "))
+nt3=int(input("Tercera nota parcial: "))
+tr=int(input("Agregar nota examen final: "))
+qc=int(input("Calificación trabajo final: "))
+cc= (nt1+nt2+nt3)/3
+tcc= (cc*0.55)
+trt= (tr*0.30)
+tqc= (qc*0.15)
+nt = (tcc+trt+tqc)
+print("La notas total es: " "{:.2f}".format(nt))
