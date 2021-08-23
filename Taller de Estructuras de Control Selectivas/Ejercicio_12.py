@@ -14,8 +14,8 @@ if(num1>=100000 ):
                  tmp4 = tmp3%100
                  if( tmp4 <=50):
                      num6= (tmp4//10)*10
-if( num1 >100000 ):
-    num2= (num1//10000)
+if( num1 <100000 ):
+    num2= (num1//10000)*10000
     tmp = num1%10000
     if( tmp<10000):
         num3= (tmp//1000)*1000
